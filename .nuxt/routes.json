@@ -1,8 +1,23 @@
 [
   {
-    "name": "",
-    "path": "",
-    "component": "D:\\\\ToN\\\\S2Website\\\\s2-website-v2\\\\node_modules\\\\@nuxt\\\\vue-app\\\\template\\\\pages\\\\index.vue",
-    "_name": "_5c189af0"
+    "name": "download",
+    "path": "/download",
+    "component": "D:\\\\ToN\\\\S2Website\\\\s2-website-v2\\\\src\\\\pages\\\\download.vue",
+    "chunkName": "pages/download",
+    "_name": "_5d5bb527"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "D:\\\\ToN\\\\S2Website\\\\s2-website-v2\\\\src\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_9512d47c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\ToN\\\\S2Website\\\\s2-website-v2\\\\src\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6d5f0c7a"
   }
 ]

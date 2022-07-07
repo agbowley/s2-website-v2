@@ -4,7 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _5c189af0 = () => interopDefault(import('..\\node_modules\\@nuxt\\vue-app\\template\\pages\\index.vue' /* webpackChunkName: "" */))
+const _5d5bb527 = () => interopDefault(import('..\\src\\pages\\download.vue' /* webpackChunkName: "pages/download" */))
+const _9512d47c = () => interopDefault(import('..\\src\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
+const _6d5f0c7a = () => interopDefault(import('..\\src\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -18,8 +20,17 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "",
-    component: _5c189af0
+    path: "/download",
+    component: _5d5bb527,
+    name: "download"
+  }, {
+    path: "/register",
+    component: _9512d47c,
+    name: "register"
+  }, {
+    path: "/",
+    component: _6d5f0c7a,
+    name: "index"
   }],
 
   fallback: false

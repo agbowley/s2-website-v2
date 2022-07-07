@@ -5,6 +5,7 @@ export default {
         '@nuxtjs/vuetify',
         '@nuxt/typescript-build'
     ],
+    srcDir: 'src/',
 
     server: process.env.NODE_ENV !== 'production' ? {
         https: {
