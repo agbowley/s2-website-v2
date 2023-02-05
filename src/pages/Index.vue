@@ -6,8 +6,8 @@
               <source src="/vid/hero.webm" type="video/webm">
             </video>
             <div class="video-description">
-              <v-img max-width="65vw" max-height="65vh" src="img/logo.png"/>
-              <v-btn dark to="/download" nuxt>Play now</v-btn>
+              <v-img max-width="30vw" src="img/logo.png"/>
+              <v-btn dark to="/download" nuxt class="mt-7">Play now</v-btn>
             </div>
           </div>
         </v-row>
@@ -18,7 +18,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-    name: "Test"
+    name: "Index",
 });
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <v-app-bar app dark class="grey darken-4">
-    <v-img src="img/logo.png" max-width="250px">
+    <v-img src="img/logo.png" max-width="70px">
 
     </v-img>
     <v-spacer/>
